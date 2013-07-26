@@ -1,0 +1,32 @@
+Echo WebService:
+================
+A very simple web service that accepts the following requests
+
+GET /echo/<text to be escaped> HTTP/1.1
+
+and returns json with the text escaped:
+
+OK 200
+{"escaped":"<escaped text>}
+
+
+Why:
+===
+
+I am trying to put together all the tools to build web services using Java and the Jersey framework:
+
+* Maven
+* Ant
+* Jersey
+* Automatic webservice explorer
+* ...
+
+Word of caution:
+===============
+
+It is early days!!
+
+Who:
+===
+Julio Delgado (EPFL Blue Brain Project)
+julio.delgadomangas@gmail.com
